@@ -1,0 +1,17 @@
+
+}
+#paragrafo1{
+	font-size: 24px;
+
+
+}
+.fundo{
+	background-color: pink;
+	color: gold;
+	text-align: center;
+
+}
+.borda-azul{
+	border: 1px solid;
+	border-color:blue;
+}

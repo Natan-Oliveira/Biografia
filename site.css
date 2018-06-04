@@ -1,0 +1,39 @@
+@font-face{
+   font-family: 'Poppins';
+   src: url(fonts/Poppins/Poppins-Italic.tff);
+}
+
+#paragrafo1{
+	font-size: 24px;
+
+
+}
+.fundo{
+   background-color: pink;
+	color: blue;
+	text-align: center;
+
+}
+.borda-azul{
+	border: 1px solid;
+	border-color:blue;
+} 
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+
+ul{
+   list-style-type: lower-alpha;
+}
+
+#foto{
+   width: 150px;
+   height: 105px;
+   border-radius: 50%;
+   position: relative;
+   left: 50%;
+
+   
+ }
