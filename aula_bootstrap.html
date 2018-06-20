@@ -32,8 +32,14 @@
                                 <option value="3">Informática</option>
                             </select>
                         </div>
-                        <button class="btn btn-primary" type="submit">Cadrastrar</button>
-                        <button class="btn btn-danger" type="reset">Limpar</button>
+                        <div class="row">
+                            <div class="col-6">
+                                    <button class="btn btn-primary btn-block" type="submit">Cadrastrar</button>
+                            </div>
+                            <div class="col-6">
+                                    <button class="btn btn-danger btn-block" type="reset">Limpar</button>
+                            </div>
+                        </div>
                     </form>
                 </fieldset>
             </div>
@@ -48,6 +54,7 @@
                                 <th>#</th>
                                 <th>nome</th>
                                 <th>categoria</th>
+                                <th>Ações</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -55,21 +62,37 @@
                                 <td>1</td>
                                 <td>Notebook HP</td>
                                 <td>Informática</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+                                </td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>TV 50</td>
                                 <td>Eletrônico</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+                                </td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>celular LG</td>
                                 <td>Telefonia</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+                                </td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>pen drive</td>
                                 <td>Informática</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" type="submit">editar</button>
+                                    <button class="btn btn-danger btn-sm" type="submit">excluir</button>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -79,7 +102,6 @@
         </div>
         <!--Final da Linha-->
     </div>
-
     <script src="resources/js/jquery.js"></script>
     <script src="resources/js/popper.js"></script>
     <script src="resources/js/bootstrap.js"></script>
